@@ -1,0 +1,25 @@
+#header {
+  background-color: white;
+  text-align: center;
+  border: 1px solid black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 70px;
+}
+#nav {
+  float: left;
+  background-color: black;
+  color: white;
+  text-align: left;
+  width: 30%;
+  height: 350px;
+}
+#content {
+  background-color: red;
+  float: left;
+  width: 70%;
+  height: 350px;
+}
+#footer {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}

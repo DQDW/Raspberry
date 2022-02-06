@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>My web page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}" />
+    <style></style>
+  </head>
+  <body>
+    <div id="header"><strong>My Youtube Subscribe</strong></div>
+    <div id="nav">
+      Subscribe List
+      <ul>
+        <li>
+          <a href="/first" target="_blank"
+            >침착맨</a
+          >
+        </li>
+        <li>
+          <a href="/second" target="_blank"
+            >뻘짓연구소</a
+          >
+        </li>
+        <li>
+          <a
+            href="/third"
+            target="_blank"
+            >장삐쭈</a
+          >
+        </li>
+      </ul>
+      <img src="{{ url_for('static', filename='img/img1.jpg')}}" width="120" height="120" />
+      <img src="{{ url_for('static', filename='img/img2.jpg')}}" width="120" height="120" />
+      <img src="{{ url_for('static', filename='img/img3.png')}}" width="120" height="120" />
+    </div>
+    <div id="content">
+      <h1>침착맨</h1>
+      <p>대한민국의 만화가, 인터넷 방송인</p>
+      <h1>뻘짓연구소</h1>
+      <p>
+        컴퓨터 하드웨어를 중심으로 스마트폰, PC 부품 등 여러가지 IT 관련 제품을
+        리뷰하는 유튜버
+      </p>
+      <h1>장삐쭈</h1>
+      <p>더빙 및 애니메이션 유튜버</p>
+    </div>
+    <div id="footer">공학설계입문 10주차 HTML 과제</div>
+  </body>
+</html>
